@@ -18,7 +18,7 @@ export default class Provider extends Component {
     state = {
         track_list: [
         ],
-        heading: 'Top 10 Tracks',
+        heading: 'Top 10 Tracks NG',
         dispatch: action => this.setState(state => reducer(state, action))
     };
 componentDidMount() {
